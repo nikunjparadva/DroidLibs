@@ -8,6 +8,13 @@ buildFeatures {
 }
 ```
 
+ShapableImageView corner
+```
+<style name="ShapeAppearanceOverlay.App.CornerSize10Percent" parent="">
+  <item name="cornerSize">10%</item>
+</style>
+```
+
 Google material dependency
 ```
 implementation 'com.google.android.material:material:1.2.1'
