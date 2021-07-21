@@ -1,5 +1,15 @@
-# DroidLibs
-Easy to copy General Popular Libs at one place just install this extention https://github.com/zenorocha/codecopy
+# DroidLibs & Snippets for Fast Implement
+
+ActivityResult
+```
+registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result: ActivityResult ->
+     if (result.resultCode == Activity.RESULT_OK) {
+        val intent = result.data
+        // Handle the Intent
+     }
+}
+```
+
 
 View Binding
 ```
