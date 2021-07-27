@@ -1,7 +1,7 @@
 # [Snippets for Fast Implement](#snippets)
 - [ActivityResult](#activityresult)
-- [View Binding](#view-binding)
 - [ShapableImageView](#shapableimageview)
+- [View Binding](#view-binding)
 
 
 # [DroidLibs](#droidlibs)
@@ -21,6 +21,13 @@ registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { re
 }
 ```
 
+### ShapableImageView
+```
+<style name="ShapeAppearanceOverlay.App.CornerSize10Percent" parent="">
+  <item name="cornerSize">10%</item>
+</style>
+```
+
 ### View Binding
 ```
 buildFeatures {
@@ -31,22 +38,15 @@ buildFeatures {
 ---------
 ## DroidLibs
 
-### ShapableImageView
+### Coroutines
 ```
-<style name="ShapeAppearanceOverlay.App.CornerSize10Percent" parent="">
-  <item name="cornerSize">10%</item>
-</style>
+implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.8'
+implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.3'
 ```
 
 ### Material dependency
 ```
 implementation 'com.google.android.material:material:1.2.1'
-```
-
-### Coroutines
-```
-implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.8'
-implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.3'
 ```
 
 ### SDP
