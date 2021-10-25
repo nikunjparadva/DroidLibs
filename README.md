@@ -34,6 +34,18 @@ buildFeatures {
   viewBinding true
 }
 ```
+for Fragment
+```
+private var _binding: ResultProfileBinding? = null
+private val binding get() = _binding!!
+
+override fun onDestroyView() {
+    super.onDestroyView()
+    _binding = null
+}
+```
+
+
 
 ---------
 ## DroidLibs
