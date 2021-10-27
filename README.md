@@ -43,6 +43,10 @@ override fun onDestroyView() {
     super.onDestroyView()
     _binding = null
 }
+
+ _binding = ResultProfileBinding.inflate(inflater, container, false)
+ val view = binding.root
+ return view
 ```
 
 
